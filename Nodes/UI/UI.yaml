@@ -231,7 +231,7 @@ Children:
     Type: BaseDataVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 1920.0
+    Value: 3840.0
   - Name: Height
     Type: BaseDataVariableType
     DataType: Size
@@ -444,6 +444,20 @@ Children:
         DataType: VerticalAlignment
         ModellingRule: Optional
         Value: 3
+    - Name: ContentAlignment
+      Type: BaseVariableType
+      DataType: ContentHorizontalAlignment
+      ModellingRule: Optional
+    - Name: HorizontalGap
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 5.0
+    - Name: VerticalGap
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 5.0
   - Name: FullScreen
     Type: BaseDataVariableType
     DataType: Boolean
